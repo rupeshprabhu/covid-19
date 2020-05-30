@@ -1,0 +1,82 @@
+.counter {
+    background-color:#f3e2e2;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+.counter-red {
+    background-color:#ff073a;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+.counter-green {
+    background-color:#28a745;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+.counter-grey {
+    background-color:#6c757d;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+
+.white {
+    color: white;
+}
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #343a40 !important;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.count-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-exclamation {
+    font-size: xxx-large;
+    color: #1e1e30;
+}
+
+.fa-grin-hearts {
+    font-size: xxx-large;
+    color: #1e1e30;
+}
+
+.fa-skull-crossbones{
+    font-size: xxx-large;
+    color: #1e1e30;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh; /* These two lines are counted as one :-)       */
+  
+    display: grid;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 375px) {
+    .row {
+        display:contents !important;
+    }
+    .col {
+        margin-top:5px ;
+    }
+  }
