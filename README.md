@@ -13,4 +13,5 @@ V1.2
 Async function updated<br />
 Add to homescreen name bug fixed<br />
 Added confirmed cases<br />
-icon issue for iOS devices is fixed
+icon issue for iOS devices is fixed<br />
+Added percentage of active and recovered cases
