@@ -32,6 +32,8 @@
     <meta name="theme-color" content="#ffffff"> 
     <!--title-->
     <title> India Covid-19 Status</title>
+    <meta name="description" 
+    content="Get the time to time updated Covid-19 (Corona) cases count in Minimal counter. It is updated hourly.">
   </head>
   <body class="bg-dark">
     <div class="jumbotron jumbotron-fluid vertical-center">
@@ -46,7 +48,7 @@
         <div class="row text-center">
               <div class="col">
               <div class="counter-red">
-          <i class="fas fa-exclamation fa-3x"></i>
+          <i class="fas fa-exclamation fa-3x" title="Danger"></i>
           <h2 class="timer count-title count-number" id="myData"></h2>
           <strong><p id="todayCases"></p>
           <p class="count-text">Confirmed cases</p></strong>
@@ -54,7 +56,7 @@
               </div>
               <div class="col">
                 <div class="counter-blue">
-              <i class="fas fa-head-side-mask fa-3x"></i>
+              <i class="fas fa-head-side-mask fa-3x" title="Mask person"></i>
             <h2 class="timer count-title count-number" id="active"></h2>
             <strong><p id="peract"></p></strong>
             <p class="count-text ">Active cases</p>
@@ -62,7 +64,7 @@
                 </div>
                   <div class="col">
                   <div class="counter-green">
-          <i class="fas fa-grin-hearts fa-3x"></i>
+          <i class="fas fa-grin-hearts fa-3x" title="Grin hearts"></i>
           <h2 class="timer count-title count-number" id="recovered"></h2>
           <strong><p id="perrec"></p></strong>
           <p class="count-text ">Recovered</p>
@@ -70,7 +72,7 @@
                   </div>
                   <div class="col">
                       <div class="counter-grey">
-          <i class="fas fa-skull-crossbones fa-3x"></i>
+          <i class="fas fa-skull-crossbones fa-3x" title="Deaths"></i>
           <h2 class="timer count-title count-number" id="deaths"></h2>
           <strong><p id="todayDeaths"></p></strong>
           <p class="count-text">Death</p>
