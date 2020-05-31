@@ -2,14 +2,15 @@
 The website displays the covid-19 cases daily count for India.
 
 V1.0 
-Displays Confirmed casse, Recovered cases and Death
+Displays Confirmed casse, Recovered cases and Death<br />
+Reponsive layout
 
 V1.1
-Fixed Title display issue
+Fixed Title display issue<br />
 Added favicon to add to homescreen on Android and iOS
 
 V1.2
-Async function updated
-Add to homescreen name bug fixed
-Added confirmed cases
+Async function updated<br />
+Add to homescreen name bug fixed<br />
+Added confirmed cases<br />
 icon issue for iOS devices is fixed
