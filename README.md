@@ -14,4 +14,5 @@ Async function updated<br />
 Add to homescreen name bug fixed<br />
 Added confirmed cases<br />
 icon issue for iOS devices is fixed<br />
-Added percentage of active and recovered cases
+Added percentage of active and recovered cases<br />
+Thousands seperator
