@@ -30,13 +30,13 @@ document.getElementById('todayDeaths').innerHTML = todayDeaths;
 let activeCases = output-recovered-deaths;
 document.getElementById('active').innerHTML = activeCases;
 
-let perrec = recovered/output*100;
+let perrec = recovered/(output-deaths)*100;
 document.getElementById('perrec').innerHTML = (perrec.toFixed(2)+'%');
-console.log(perrec.toFixed(2));
+//console.log(perrec.toFixed(2));
 
-let peract = activeCases/output*100;
+let peract = activeCases/(output-deaths)*100;
 document.getElementById('peract').innerHTML = (peract.toFixed(2)+'%');
-console.log(peract.toFixed(2));
+//console.log(peract.toFixed(2));
 })
 .catch(error => {
 console.log('Error in the url');
