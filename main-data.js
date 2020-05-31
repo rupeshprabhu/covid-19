@@ -26,6 +26,9 @@ document.getElementById('deaths').innerHTML = deaths;
 let todayDeaths = '';
 todayDeaths +=(`(+${data.todayDeaths})`)
 document.getElementById('todayDeaths').innerHTML = todayDeaths;
+
+let activeCases = output-recovered-deaths;
+document.getElementById('active').innerHTML = activeCases;
 })
 .catch(error => {
 console.log('Error in the url');
