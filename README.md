@@ -1,4 +1,4 @@
-# covid-19
+# Covid-19 India count status dynamic
 The website displays the covid-19 cases daily count for India.
 
 V1.0 
