@@ -15,4 +15,5 @@ Add to homescreen name bug fixed<br />
 Added confirmed cases<br />
 icon issue for iOS devices is fixed<br />
 Added percentage of active and recovered cases<br />
-Thousands seperator
+Thousands seperator<br />
+Death percentage added with the headline box at bottom
