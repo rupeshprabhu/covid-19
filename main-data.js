@@ -37,6 +37,10 @@ document.getElementById('perrec').innerHTML = (perrec.toFixed(2)+'%');
 let peract = activeCases/(output-deaths)*100;
 document.getElementById('peract').innerHTML = (peract.toFixed(2)+'%');
 //console.log(peract.toFixed(2));
+
+let perdea = deaths/output*100;
+document.getElementById('perdea').innerHTML = ('The percentage of the people died due to Covid-19 is ' +perdea.toFixed(2)+'%');
+
 function thou(num)
   {
     var num_parts = num.toString().split(".");

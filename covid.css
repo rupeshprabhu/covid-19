@@ -18,6 +18,13 @@
     padding: 25px 0;
     border-radius: 10px;
 }
+
+.counter-grey1 {
+    background-color:#1d2124;
+    padding: 10px 0;
+    border-radius: 75px;
+    margin-top: 8px;
+}
 .counter-blue {
     background-color:#007bff;
     padding: 25px 0;
@@ -48,6 +55,15 @@
     margin-top: 10px;
     margin-bottom: 0;
     text-align: center;
+}
+
+.count-text1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
 }
 
 .fa-exclamation {
