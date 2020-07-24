@@ -63,6 +63,7 @@ getCovidapi()
         }
 
     })
-    //.catch(error => {
-    //      console.log('Error in the url');
-    // });
+    /*.catch(error => {
+         console.log('Error in the url');
+    }); 
+    */
